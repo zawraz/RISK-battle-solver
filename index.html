@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RISK battle solver</title>
+        <link href="css/stylesheet.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <h1>RISK<sup>Ⓡ</sup> battle solver</h1>
+                <p> A tool to resolve dice battles in a legendary board game!</p>
+            </header>
+            <div class="army-quantity">
+                <section class="row">
+                    <div class="column attack-quantity">
+                        <h3>How many dice do you want to attack with?</h3>
+                        <input id="attack1" class="radio-btns" type="radio" name="attack-dice-quantity" value="1">
+                        <label for="attack1">1</label>
+                        <input id="attack2" class="radio-btns" type="radio" name="attack-dice-quantity" value="2">
+                        <label for="attack2">2</label>
+                        <input id="attack3" class="radio-btns" type="radio" name="attack-dice-quantity" value="3">
+                        <label for="attack3">3</label>
+                    </div>
+                    <div class="column defence-quantity">
+                        <h3>How many dice do you want to defend with?</h3>
+                        <input id="defence1" class="radio-btns" type="radio" name="defence-dice-quantity" value="1">
+                        <label for="defence1">1</label>
+                        <input id="defence2" class="radio-btns" type="radio" name="defence-dice-quantity" value="2">
+                        <label for="defence2">2</label>
+                    </div>
+                    <button class="resolve-btn" type="button">Resolve</button>
+                </section>
+            </div>
+            <section class="row">
+                <div class="column attack">
+                    <h3>Attacker's army</h3>
+                </div>
+                <div class="column defence">
+                    <h3>Defender's army</h3>
+                </div>
+            </section>
+            <div class="summary">
+                <p></p>
+            </div>
+        </div>
+    <script src="index.js"></script>
+    </body>
+</html>
+
+<!-- <a href='https://pngtree.com/so/Vector'>Vector pngs from pngtree.com/</a> -->
+<!-- http://zorconsword.blogspot.com/2012/12/risk-unexpected-journey-part-4.html?m=1 - background source-->

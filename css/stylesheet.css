@@ -1,0 +1,55 @@
+html, body {
+    background: url(/images/Risk.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    margin: 0 auto;
+    color: #fff;
+    font-family: 'Kanit', sans-serif;
+    max-width: 800px;
+}
+
+sup {
+    vertical-align: super;
+    font-size: 20px;
+  }
+
+.wrapper {
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(4px)
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both; 
+  }
+  
+/* .attack-quantity {
+    background: rgba(134, 8, 8, 0.8);
+  }
+  
+.defence-quantity {
+    background:rgba(18, 39, 83, 0.8)
+  }
+
+.attack {
+    background: rgba(185, 8, 8, 0.33);
+}
+
+.defence {
+    background:rgba(28, 68, 155, 0.33)
+} */
+
+.dice-images {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  max-width: 150px;
+}
